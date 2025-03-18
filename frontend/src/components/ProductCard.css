@@ -1,0 +1,130 @@
+
+.product-price{
+  margin-top: 5%;
+  
+}
+
+/* .add-to-cart-btn {
+  margin-right: 6%;
+    margin-top: 5%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  } */
+  .add-to-cart-btn {
+    background-color: #22bc2c;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart-btn.added {
+    background-color: #28a745; /* Green for Added */
+    color: white;
+  }
+  
+  
+  .add-to-cart-btn:hover {
+    background-color: #429445;
+  }
+  
+  .add-to-cart-btn:active {
+    background-color: #4caf50;
+    transform: scale(0.98); 
+  }
+  
+  /* .add-to-cart-btn.added {
+    background-color: #28a745; 
+    color: white;
+    transition: background-color 0.3s;
+  } */
+  
+  
+  .add-to-cart-btn.added:hover {
+    background-color: #95a5a6;
+  }
+  
+  
+
+  .quantity-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .quantity-btn {
+    background-color: #ddd;
+    color: #333;
+    font-size: 18px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    user-select: none;
+  }
+  
+  .quantity-btn:hover {
+    background-color: #ccc;
+  }
+  
+  .quantity-input {
+    width: 40px;
+    text-align: center;
+    margin: 0 10px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  .product-card {
+    padding: 10px 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+    background-color: #ffffff; /* White background for contrast */
+    transition: transform 0.2s, box-shadow 0.2s;
+     
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* More prominent shadow on hover */
+  }
+  
+  .product-image {
+    margin-top: 5px;
+    max-width: 230px; /* Slightly larger image */
+    min-width: 180px; /* Slightly larger image */
+    height: 50px;
+    object-fit: cover; /* Ensure the image fits well */
+    border-radius: 8px; /* Rounded corners for the image */
+    margin-bottom: 5px; /* Add space between the image and details */
+  }
+  
+  .product-details {
+    margin-top: 10px; /* Space between image and text */
+  }
+  
+  .product-details h4 {
+    margin: 8px 0;
+    font-size: 18px; /* Larger font for the title */
+    font-weight: 600; /* Semi-bold for emphasis */
+    color: #333; /* Darker text color */
+  }
+  
+  .product-details p {
+    margin: 6px 0;
+    font-size: 16px; /* Slightly larger text for details */
+    color: #555; /* Subtle gray text */
+    line-height: 1.4; /* Add spacing between lines */
+  }
+  
+  .price {
+    font-size: 18px; /* Highlight the price */
+    font-weight: bold;
+    color: #1a73e8; /* Blue color for the price */
+    margin-top: 12px; /* Add space above the price */
+  }
