@@ -1,3 +1,6 @@
+if (process.env.NODE_ENV !== "production") {
+  require("dotenv").config(); // only load .env locally
+}
 const path = require("path");
 const express = require("express");
 const cors = require("cors");
