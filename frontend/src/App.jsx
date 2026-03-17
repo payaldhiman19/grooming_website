@@ -12,7 +12,7 @@ import Login from './components/Login';
 import Cart from './pages/Cart';
 import AssessmentForm from './components/AssessmentForm';
 import { CartProvider } from './contexts/CartContext';
-import Profile from './components/profile';
+import Profile from './components/Profile';
 import AdminPage from './components/AdminPage';
 import './App.css';
 
