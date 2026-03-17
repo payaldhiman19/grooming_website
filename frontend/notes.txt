@@ -1,0 +1,3 @@
+- change logo
+- change bg image of contact us page
+- change bg image of aboutt us page
